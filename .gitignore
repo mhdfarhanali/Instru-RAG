@@ -1,0 +1,35 @@
+# Environment & virtualenv
+.venv/
+env/
+venv/
+*.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data directories (avoid pushing raw/large files)
+data/raw/*
+data/processed/*
+
+# VS Code & local editor configs
+.vscode/
+.idea/
+
+# Docker & container volumes
+*.log
+docker-compose.override.yml
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Other temp / cache folders
+tmp/
+logs/
